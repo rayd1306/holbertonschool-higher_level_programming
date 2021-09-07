@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 str = "Holberton School"
-print("{0:s}{0:s}{0:s}".format(str))
+sub = str[:9]
+print("{0:s}{0:s}{0:s}\n{1}".format(str,sub))
